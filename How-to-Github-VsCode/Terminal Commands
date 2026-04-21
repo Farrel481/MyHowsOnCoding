@@ -1,1 +1,33 @@
+CLONE REPOSITORY
+git clone link-of-repository
+
+MASUK FOLDER-REPO
+cd nama-repo
+
+INISIALISASI GIT
+git init
+
+CONNECT REPO TO GITHUB
+git remote add origin https://github.com/username/nama-repo.git
+
+STAGING SAVE PERUBAHAN
+git add .
+
+COMMIT CHANGE
+git commit -m "Commit Message"
+
+PUSH 2 GITHUB
+git push -u origin master
+
+PULL REPO
+git pull origin main
+
+PUSH UPDATE 2 GITHUB
+git add .
+git commit -m "New Update ato apa kek"
+git push
+
+Untuk  membuat perubahan, ke source code dulu
+karena masih disimpan didalam local, belum 
+di input ke githubnya.
 
