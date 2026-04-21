@@ -27,6 +27,14 @@ git add .
 git commit -m "New Update ato apa kek"
 git push
 
+IDENTITAS COMMIT UNTUK SEMUA REPO
+git config --global user.name "Username"
+git config --global user.email "Email"
+
+IDENTITAS COMMIT UNTUK INDIVIDUAL REPO
+git config user.name "Username"
+git config user.email "Email"
+
 Untuk  membuat perubahan, ke source code dulu
 karena masih disimpan didalam local, belum 
 di input ke githubnya.
