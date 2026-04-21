@@ -1,0 +1,44 @@
+SOFTWARE VERSIONING
+Process assign unique number/value ke feature state of software.
+Purpose: Identify compatibility, track features, fixing bugs.
+
+1. SemVer (Semantic VERSIONING)
+- Format: MAJOR.MINOR.PATCH
+    e.g: 3.0.4, 13.9.6, v22.8.12, v9.87.112
+        - MAJOR: major changes, drastic, API is no longer compatible with former version.
+        - MINOR: add new features/funcionality, no impact to existing features.
+        - PATCH: Small fixes, bug fixing.
+    3.0.2 => 4.0.0 => 4.0.2 => 4.1.0 
+
+2. CalVer (Calender Versioning)
+- Format: Based on released date => YYYY.MM.DD, YY.MM, YYYY.0
+        - e.g: 2026.04.21, 26.04, 2026.8
+
+3. SeQVer (Sequential Versioning)
+- Linear Progression internal build number starting dari 1.
+- Is not fixed on the format.
+e.g: Build 1, Build 2 or Release 1, Release 2.
+
+4. Alphanumeric/Named/Brand/Marketing Versioning
+     - Sound Commercial
+     - e.g: Android Oreo, Pie, Kitkat, etc.
+
+5. Zero-Versioning (0-Ver)
+- Format: 0.x.y => X is major change and Y is MINOR
+
+6. Git Hash Versioning
+     - Use commit ID (SHA) as version number.
+     - e.g: 5d1a800, 795d6f0, 5bbc0cc.
+
+7. 4 Digit Versioning
+     - Format: MAJOR.MINOR.BUILD.REVISION
+     - MAJOR: Major changes.
+     - MINOR: Added new func or features.
+     - REVISION: Bug fix, emergency tweak.
+
+Additional Version Number:
+e.g: 4.9.11-alpha.1, 2026.04.21-beta.2, rc, etc.
+
+Bebas gunakan yang mana tapi populernya no.7, SemVer, Alphanumeric, no.7.
+Untuk additional biasanya unreleased atau biasanya belum di merge ke main branch atau folder atau apk utama.
+Jangan lupa utk additional pake keterangan (alpha: sudah siap merge, beta: potential bug masi mentah, dll.)
