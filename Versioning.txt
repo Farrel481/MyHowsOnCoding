@@ -46,7 +46,7 @@ git tag: 1. Annotated tag, who make the tag, message, author, email, date.
          2. Lightweight tag, only tag name maker.
 - list tag: $ git tag
 - create annotated tag: $ git tag -a v0.0.1 -m "release v0.0.1" (Ini misal).
-
+- create annotated tag: git tag -a nama-tag commitID
 cek tag: git tag
 cara pushnya:
 
