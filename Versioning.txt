@@ -39,6 +39,19 @@ e.g: Build 1, Build 2 or Release 1, Release 2.
 Additional Version Number:
 e.g: 4.9.11-alpha.1, 2026.04.21-beta.2, rc, etc.
 
+GIT TAG
+- Bookmarks for specific points in a repo (commit id)
+- git tag used to mark release point (version number)
+git tag: 1. Annotated tag, who make the tag, message, author, email, date.
+         2. Lightweight tag, only tag name maker.
+- list tag: $ git tag
+- create annotated tag: $ git tag -a v0.0.1 -m "release v0.0.1" (Ini misal).
+
+cek tag: git tag
+cara pushnya:
+
+Create annotated tag lalu git push origin nama-tag.
+
 Bebas gunakan yang mana tapi populernya no.7, SemVer, Alphanumeric, no.7.
 Untuk additional biasanya unreleased atau biasanya belum di merge ke main branch atau folder atau apk utama.
 Jangan lupa utk additional pake keterangan (alpha: sudah siap merge, beta: potential bug masi mentah, dll.)
