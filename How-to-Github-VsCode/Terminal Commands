@@ -35,6 +35,24 @@ IDENTITAS COMMIT UNTUK INDIVIDUAL REPO
 git config user.name "Username"
 git config user.email "Email"
 
+LIHAT IDENTITAS COMMITER
+git config --list
+
+CEK REMOTE REPO 
+git remote -v
+
+REMOTE REPO
+git remote set-url origin https://github.com/Username/Reponame.git
+
+- TUTORIAL MENGGANTI AKUN VS-CODE GITHUB!
+1. Klik logo window dan cari Credential Manager
+2. Masuk Windows Credentials
+3. Cari git:https://github.com lalu klik
+4. Remove.
+5. Di terminal masukkan git push origin main
+6. Login ulang.
+Jangan lupa buat ganti Commiter Account dengan Identitas commit di terminal.
+
 Untuk  membuat perubahan, ke source code dulu
 karena masih disimpan didalam local, belum 
 di input ke githubnya.
