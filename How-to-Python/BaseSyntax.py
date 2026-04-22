@@ -25,3 +25,46 @@ print(teks.upper())
 print(teks.lower())
 print(teks.split())
 print(teks.replace("World", "Everyone"))
+
+#Operators
+
+print(10 + 5)
+print(10 - 5)
+print(10 * 5)
+print(10 / 5)
+print(10 // 3) #Floor Division
+print(10 % 3) #Modulus
+print(10 ** 3) #Exponentiation
+
+#Assignment Operators
+name = "Andi"
+number = 26
+total = number + 5
+print(total)
+
+x, y = 10, 20
+x += y
+print(x)
+x -= y
+print(x)
+x *= y
+print(x)
+x /= y
+print(x)
+
+#Logical Operators
+a = True
+b = False
+
+x, y = 10, 20
+print(x < 10 and y > 5)
+print(x < 10 or y > 15)
+print(not(x < y))
+
+#Identity Operators
+x = 10
+print(x is 5)
+print(x is not 5)
+y = 35
+print(x is y)
+print(x == y)
