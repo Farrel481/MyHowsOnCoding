@@ -19,3 +19,9 @@ print(f"Hello {name}, Kamu apakabar?")
 print("Hello {}, Kamu apakabar?".format(name))
 #Bisa juga kaya bahasa C/C++ nih
 print('Hello %s, Umur kamu %d tahun ya?' % (name, age))
+
+teks = "Hello World!"
+print(teks.upper())
+print(teks.lower())
+print(teks.split())
+print(teks.replace("World", "Everyone"))
