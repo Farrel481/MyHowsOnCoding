@@ -14,3 +14,4 @@ students.append("Fajar")
 print(students)
 print(students[2])
 print(students[1:4])
+
