@@ -1,7 +1,57 @@
 PROGRAMMING PARADIGM
 - Fundamental style of computer programming.
 - Conceptual Framework for organizing and structuring code.
-- A set of tools and rules that guides & influences how developer should think about the problem and how developer structure the code to solve it.
+- A set of tools and rules that guides & influences how developer 
+should think about the problem and how developer structure 
+the code to solve it.
 
 Languanges > Paradigm > Concept
 
+- Imperative Programming (Step By Step Solve)
+Problem: 12 * 8?
+x = 12
+y = 8
+hasil = x * y
+print(hasil)
+
+- Procedural Programming (Instruksi step berurutan Fungsi)
+def hasilKali(x, y):
+    print(x * y)
+x = 12
+y = 8
+hasilKali(x, y)
+
+- Declarative Programming (Syntax give info about what they do)
+"SELECT nama from karyawan limit 10"
+print(sum([12, 8]))
+atau
+for i in range(0, 9):
+    data.append(x)
+print(sum(data))
+
+- Functional Programming (Using Func as main way to code)
+def hasilKali(x, y):
+    return x * Y
+x = 12 
+y = 8
+data = hasilKali(x, y)
+data2 = hasilKali(hasilKali(2, 3), hasilKali(4, 5))
+
+hasil = lambda x, y: x * y
+print(hasil(x, y))
+
+- Object Oriented Programming (Data + Fungsi)
+class Calculator:
+    def __init__(self, x, y):
+        self.x = X
+        self.y = y
+    def hasilKali(self):
+        return self.x * self.y
+
+obj = calculator(x, y)
+print(obj)
+print(obj.hasilKali())
+
+OOP
+- Prototype-based OOP (Linking each object)
+- Class Based (Individual class focused)
