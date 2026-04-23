@@ -1,0 +1,4 @@
+PROGRAMMING PARADIGM
+- Fundamental style of computer programming.
+- Conceptual Framework for organizing and structuring code.
+- A set of tools and rules that guides & influences how developer should think about the problem and how developer structure the code to solve it.
