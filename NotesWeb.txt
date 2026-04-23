@@ -1,0 +1,60 @@
+FRONT END
+UI (User Interface) + UX (User Experience)
+
+Was responsible for:
+- Layout (HTML)
+- Design (CSS)
+- Interaction (Java Script)
+
+TOOLS:
+- React
+- Vue.js
+- Angular
+
+BACK END
+Logical, Databases, Power
+
+Usually handles:
+- Requests (Log-in)
+- Business logic (Premium apps or in-app purchase)
+- Database Interaction
+- Authentication & Security
+
+Languanges:
+- JavaScript (Node.js)
+- Python
+- Java
+- GO
+
+Frameworks:
+- Express.js
+- Django
+- Spring Boot
+
+FRONT-END + BACK-END
+Communicates using APIs (Application Programming Interface)
+>
+GET /users     #Get means fetch data
+POST /login    #Post is send
+PUT /profile   #PUT is update
+DELETE /post   #Delete hapus
+
+Data Format
+> JSON
+{
+  "name": Farrel,
+  "age": 17
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
