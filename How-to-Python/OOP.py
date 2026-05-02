@@ -38,3 +38,23 @@ class Player:
     def run(self):
         return f"run {self.name}"
     
+#Abstracion of real Objects:
+class SUV:
+    engine = 2500
+    power = 180
+    length = 4.9
+    height = 1.9
+    transmission = "A/T"
+    brand = "Mitsubishi"
+    seat = 7
+
+pajero = SUV()
+print(pajero.engine)
+
+'''
+class animal: #Ini adalah abstract class
+
+class kucing: #Ini adalah isi dari abstract class
+    
+class unggas: #Ini adalah isi dari abstract class
+    '''
