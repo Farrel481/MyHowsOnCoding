@@ -22,3 +22,33 @@ else:
 
 nama = "Farrel"
 print(f"Hello nama saya {nama}!")
+
+uas = 90
+strata = "S1"
+listCumlaude = ["S1", "S2", "S3"]
+
+if uas >= 90:
+    print(f"Selamat, anda lulus dengan nilai sempurna{uas}!")
+    if strata in listCumlaude:
+        print("Selamat anda lulus Cumlaude!")
+elif uas >= 70 and uas < 90:
+    print(f"Selamat anda lulus dengan nilai {uas}.")
+else:
+    print("Anda remedial.")
+
+
+weekday = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"]
+weekend = ["Sabtu", "Minggu"]
+hari = "Senin"
+
+if hari in weekday:
+    print(f"Hari ini adalah weekday, yaitu {hari}.")
+    
+if hari in weekend:
+    print(f"Hari ini adalah weekend, yaitu {hari}.")
+
+match hari:
+    case "Sabtu" | "Minggu":
+        print("Hari ini Libur!")
+    case _:
+        print("Hari ini Bekerja!")
