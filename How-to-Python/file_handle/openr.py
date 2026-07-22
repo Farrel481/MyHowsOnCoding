@@ -39,10 +39,25 @@ with open("test.txt", "r") as file:
     lines = file.readlines() 
     print(lines)
     
-#4. File path location
-
+#3. File path location
 try:
     with open("foldertesting/Plu.txt", "r") as file:
         print(file.read())
 except FileNotFoundError as error:
     print(f"ERRORR: {error}")
+
+#can do backward paths too.
+    with open("../second.txt", "r") as file:
+        print(file.read())
+
+#4. Open() files methods
+with open("test2.txt", "r") as file:
+    text = file.read()
+    print(text)
+    print(text.find("Nut"))
+
+    file.seek(0) #Move Cursor to first char, output from first char.
+    print(line1)
+    file.seek(3) 
+    line1 = file.readline()
+    print(line1)
