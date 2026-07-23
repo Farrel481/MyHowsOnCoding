@@ -8,3 +8,11 @@ Here is the Characterisctic:
 - Strict/rigid schema
 - Strong adherence to ACID properties
 - Data organized in structural tables.
+
+
+ACID:
+1. Atomicity (Data transaction is individual. Don't take effect.)
+2. Consistency (Always a valid state and data.)
+3. Isolation (Concurrently transactions don't interfere others.)
+4. Durability (Non-volatile storage, will not be lost)
+
