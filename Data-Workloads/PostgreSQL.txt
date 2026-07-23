@@ -16,3 +16,24 @@ ACID:
 3. Isolation (Concurrently transactions don't interfere others.)
 4. Durability (Non-volatile storage, will not be lost)
 
+RDBMS (Relational Database Management System):
+Software to create, maintain, manage, and control access to 
+a relational database.
+
+(IMPORTANT!!)so what is PostgreSQL?
+is an advance, enterprise-grade, open-source RDBMS. IT is beyond standard relational features. It also supports OOP.
+copy file path to terminal.
+then
+psql -U postgres.
+Set password for urself.
+
+After installing, and input the pass, u'll be asked to select app.
+- Add-ons 
+- Database Driver
+- Database Server
+- Regist
+- Spatial Extensions
+- Web Development.
+
+Just choose for whatever related to what u need. In my case it is Database Server.
+Can choose multi.

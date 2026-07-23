@@ -1,0 +1,10 @@
+1. Activate server using terminal
+    - Go to Bin and search for PostgreSQL
+        $cd c:\Program Files\PostgreSQL\18\bin 
+    - Execute psql using username & pass 
+        default is postgres
+        $psql -U postgres
+        $ Password:
+    
+    - Working on databases:
+        list db:     $   
