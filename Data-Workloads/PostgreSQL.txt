@@ -1,0 +1,10 @@
+What is Database Sequel? (Relational Database)
+Is a type of databse that stores and organizes data into Tables
+consisting of ROWS and COLUMNS. Data across these tables is linked through Relationships.
+To access, maipulate, and query this structured data, the system uses SQL
+(Structured Query Languange), which is the international standard programming languange designed for managing relational data. 
+
+Here is the Characterisctic:
+- Strict/rigid schema
+- Strong adherence to ACID properties
+- Data organized in structural tables.
