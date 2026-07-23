@@ -5,6 +5,11 @@
         default is postgres
         $psql -U postgres
         $ Password:
+    - Working on Database:
+        list db:      $\l
+        use db:       $\c databaseName
+        list tables:  $\d
+        select data:  $ select * from tableName
 
 2. Create Database with GUI:
     - Databases > Create > Database OR ALT+SHIFT+N 

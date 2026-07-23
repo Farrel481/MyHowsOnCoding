@@ -35,5 +35,7 @@ After installing, and input the pass, u'll be asked to select app.
 - Spatial Extensions
 - Web Development.
 
+*App will be named pgAdmin4
+
 Just choose for whatever related to what u need. In my case it is Database Server.
 Can choose multi.
