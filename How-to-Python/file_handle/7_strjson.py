@@ -1,6 +1,6 @@
 import json
 
-#JSON data format filled with str
+#JSON data format to str
 data = '{"name": "Farrel", "city": "Unknown"}' #most will miss the " ' ".
 print(data)
 print(type(data))
@@ -29,3 +29,24 @@ print(type(data4Json))
 # data5Json = json.loads(data5)
 # print(data5Json)
 # print(type(data5Json))
+
+#Dict or List to str JSON
+
+a = [1, 2, 3, 4, 5, 'Farrel']
+print(a)
+print(type(a))
+
+aJson = json.dumps(a)
+print(aJson)
+print(type(aJson))
+
+b = {
+    "name": "Farrel",
+    'age': 18,
+    18: True,
+    "x": None
+}
+
+bJson = json.dumps(b)
+print(bJson)
+print(type(bJson))
