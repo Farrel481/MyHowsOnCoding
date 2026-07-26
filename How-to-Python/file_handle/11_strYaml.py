@@ -37,4 +37,17 @@ y = yaml.dump(data, sort_keys=False)
 print(y)
 print(type(y))
 
+#Write up to yaml file
 
+datayaml = {"ZenlessZoneZero": ["Jane Doe", "Ellen Joe", "Ju Fufu"], "Favorite": "Jane Doe"}
+    
+
+with open("a.yaml", "w") as file:
+    yaml.dump(datayaml, file)
+
+with open("a.yaml", "r") as file:
+    fav = yaml.safe_load(file)
+    print(fav)
+    print(type(fav))
+    print(f"His fav game is Zenless Zone Zero and his favorites car is {fav['ZenlessZoneZero'][0]}")
+    
