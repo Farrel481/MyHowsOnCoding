@@ -1,0 +1,10 @@
+{
+    "name": "Whoever",
+    "age": 19,
+    "isMarried": false,
+    "Friends": {
+        "Male": ["Simon", "John", "Joel"],
+        "Female": ["Jane Doe", "Ellen", "Fanny"]
+    }
+    
+}
