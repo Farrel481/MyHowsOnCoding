@@ -50,4 +50,13 @@ with open("a.yaml", "r") as file:
     print(fav)
     print(type(fav))
     print(f"His fav game is Zenless Zone Zero and his favorites car is {fav['ZenlessZoneZero'][0]}")
-    
+
+#Kalau mau mindahin data yaml ke file yaml lain
+#Misal dari "a.yaml" ke file baru yaitu b.yaml
+
+with open("a.yaml", "r") as cau:
+    dawg = yaml.safe_load(cau) #cau and dawg is just variable.
+
+with open("b.yaml", "w") as file:
+    yaml.dump(dawg, file) #If u want 2 non-activate the sortkeys just do(dawg, file, sort_keys=false)
+

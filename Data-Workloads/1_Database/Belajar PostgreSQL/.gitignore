@@ -1,0 +1,8 @@
+# Rahasia dan konfigurasi lokal
+.env
+*.log
+
+# Backup / data PostgreSQL lokal yang ukurannya besar
+postgres-data/
+*.backup
+*.dump
